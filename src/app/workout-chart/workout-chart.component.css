@@ -1,0 +1,27 @@
+/* Add this to your global stylesheet or component-specific stylesheet */
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(to bottom right, black, violet, white); /* Gradient background */
+  }
+  
+  .chart-card {
+    background: linear-gradient(135deg, rgb(2, 63, 156), white);
+    padding: 20px;
+    width: 90%; /* Adjust width as needed */
+    max-width: 800px; /* Limit maximum width */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow */
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+  }
+  
+  /* Additional styles specific to ngx-charts-bar-vertical component */
+  ngx-charts-bar-vertical {
+    display: block;
+    width: 100%; /* Ensure chart fills its container */
+    height: 400px; /* Adjust height as needed */
+  }
+  

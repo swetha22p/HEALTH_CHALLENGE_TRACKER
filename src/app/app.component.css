@@ -1,0 +1,22 @@
+/* app.component.css */
+
+.mat-toolbar {
+    font-size: 34px; /* Increase font size */
+    text-align: center; /* Center align the text */
+    color: violet;
+    font-style: 'Arial';
+  }
+  
+  .mat-toolbar span {
+    flex: 1; /* Ensure spans fill remaining space evenly */
+  }
+  
+  .mat-button {
+    font-size: 28px; /* Increase button font size */
+    color: violet;
+  }
+  
+  .container {
+    padding: 20px; /* Add padding around the router-outlet */
+  }
+  

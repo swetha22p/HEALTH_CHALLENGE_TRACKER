@@ -1,0 +1,45 @@
+/* workout-list.component.css */
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(to bottom right, black, violet, white); /* Gradient background */
+  }
+  
+  .card {
+    background: linear-gradient(135deg, rgb(2, 63, 156), white);
+    padding: 20px;
+    width: 90%; /* Adjust width as needed */
+    max-width: 800px; /* Limit maximum width */
+    text-align: center;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow */
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+    color: violet;
+    font-size: 18px; /* Adjust font size */
+  }
+  
+  .mat-table {
+    width: 100%; /* Ensure table fills its container */
+  }
+  
+  .mat-header-cell,
+  .mat-cell {
+    padding: 12px; /* Adjust cell padding */
+    font-size: 20px; /* Increase font size for header and cell */
+  }
+  
+  .mat-header-row {
+    background-color: #f0f0f0; /* Header row background color */
+  }
+  
+  .mat-row:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row background color */
+  }
+  
+  .mat-paginator {
+    margin-top: 20px; /* Adjust spacing between table and paginator */
+  }
+  
